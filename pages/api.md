@@ -25,7 +25,7 @@ layout: st-left
 background: ./images/BK035D.png
 ---
 
-<img src="./images/f11.12.png" class="h-full">
+<img src="../images/f11.12.png" class="h-full">
 
 ---
 layout: st-left
