@@ -4,6 +4,6 @@
 
 The following resources is owned by third party, and is used for educational purpose only:
 
-- `images/102128174_p0.jpg`: [毛毛毛](https://www.pixiv.net/users/36644847)
+- Background and decoration images: [恋×シンアイ彼女](http://ustrack.amusecraft.com/koikake/index.html)
 
 For image authors, if you want to remove your image from this repository, please contact me.
