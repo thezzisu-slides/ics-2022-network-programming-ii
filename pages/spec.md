@@ -1,7 +1,7 @@
 ---
 layout: st-left-section-header
-image: /images/ST02A_D030.png
-background: /images/BK001D.png
+image: ./images/ST02A_D030.png
+background: ./images/BK001D.png
 ---
 
 # Spec:
@@ -9,7 +9,7 @@ background: /images/BK001D.png
 
 ---
 layout: st-left
-background: /images/BK001D.png
+background: ./images/BK001D.png
 ---
 
 # Overview: The Modern Web Stack
@@ -31,7 +31,7 @@ The above one-liner is a working HTTP server in Node.JS.
 
 ---
 layout: st-left
-background: /images/BK001D.png
+background: ./images/BK001D.png
 ---
 
 # HTTP/1.1
@@ -60,7 +60,7 @@ thezzisu@AS-ZISU > ~ curl.exe -vvv https://332.zisu.dev/
 
 ---
 layout: st-left
-background: /images/BK001D.png
+background: ./images/BK001D.png
 ---
 
 # HTTP/1.1 Request
@@ -85,7 +85,7 @@ background: /images/BK001D.png
 
 ---
 layout: st-left
-background: /images/BK001D.png
+background: ./images/BK001D.png
 ---
 
 # HTTP/1.1 Response
@@ -109,7 +109,7 @@ background: /images/BK001D.png
 
 ---
 layout: st-left
-background: /images/BK001D.png
+background: ./images/BK001D.png
 ---
 
 # HTTP/1.1
@@ -125,7 +125,7 @@ background: /images/BK001D.png
 
 ---
 layout: st-left
-background: /images/BK001D.png
+background: ./images/BK001D.png
 ---
 
 # Mime Types
@@ -143,7 +143,7 @@ background: /images/BK001D.png
 
 ---
 layout: st-left
-background: /images/BK001D.png
+background: ./images/BK001D.png
 ---
 
 # Universal Resource Identifier (URI)
@@ -157,7 +157,7 @@ background: /images/BK001D.png
 
 ---
 layout: st-left
-background: /images/BK001D.png
+background: ./images/BK001D.png
 ---
 
 # Web Specifications

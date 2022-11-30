@@ -21,7 +21,7 @@ const props = defineProps<{
   background?: string
 }>()
 
-const image = computed(() => props.image ?? '/images/ST02A_A010.png')
+const image = computed(() => props.image ?? './images/ST02A_A010.png')
 const background = computed(() => props.background ? `url("${props.background}")` : 'white')
 </script>
 

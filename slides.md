@@ -27,7 +27,7 @@ Introduction to Computer Systems, Peking University
 
 ---
 layout: st-left
-background: /images/BK030D.png
+background: ./images/BK030D.png
 ---
 
 # Outline
@@ -64,7 +64,7 @@ src: ./pages/gossip.md
 
 ---
 layout: cover
-background: /images/end.png
+background: ./images/end.png
 ---
 
 # Thanks

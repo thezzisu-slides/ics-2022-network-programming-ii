@@ -1,7 +1,7 @@
 ---
 layout: st-left-section-header
-image: /images/ST02A_A030.png
-background: /images/BK030D.png
+image: ./images/ST02A_A030.png
+background: ./images/BK030D.png
 ---
 
 # API:
@@ -9,8 +9,8 @@ background: /images/BK030D.png
 
 ---
 layout: st-left
-image: /images/ST02A_A020.png
-background: /images/BK035D.png
+image: ./images/ST02A_A020.png
+background: ./images/BK035D.png
 ---
 
 # The Sockets Interface
@@ -22,14 +22,14 @@ I/O functions to build network applications.
 
 ---
 layout: st-left
-background: /images/BK035D.png
+background: ./images/BK035D.png
 ---
 
-<img src="/images/f11.12.png" class="h-full">
+<img src="./images/f11.12.png" class="h-full">
 
 ---
 layout: st-left
-background: /images/BK035D.png
+background: ./images/BK035D.png
 ---
 
 # Socket Address Structures
@@ -54,8 +54,8 @@ struct sockaddr {
 
 ---
 layout: st-left
-image: /images/ST02A_C010.png
-background: /images/BK035D.png
+image: ./images/ST02A_C010.png
+background: ./images/BK035D.png
 ---
 
 # The `socket` Function
@@ -76,8 +76,8 @@ int clientfd = socket(AF_INET, SOCK_STREAM, 0);
 
 ---
 layout: st-left
-image: /images/ST02A_C010.png
-background: /images/BK035D.png
+image: ./images/ST02A_C010.png
+background: ./images/BK035D.png
 ---
 
 # The `socket` Function
@@ -87,8 +87,8 @@ background: /images/BK035D.png
 
 ---
 layout: st-left
-image: /images/ST02A_C020.png
-background: /images/BK035D.png
+image: ./images/ST02A_C020.png
+background: ./images/BK035D.png
 ---
 
 # The `connect` Function
@@ -103,8 +103,8 @@ int connect(int clientfd, const struct sockaddr *addr, socklen_t addrlen);
 
 ---
 layout: st-left
-image: /images/ST02A_C020.png
-background: /images/BK035D.png
+image: ./images/ST02A_C020.png
+background: ./images/BK035D.png
 ---
 
 # The `bind` Function
@@ -118,8 +118,8 @@ int bind(int sockfd, const struct sockaddr *addr, socklen_t addrlen);
 
 ---
 layout: st-left
-image: /images/ST02A_D010.png
-background: /images/BK035D.png
+image: ./images/ST02A_D010.png
+background: ./images/BK035D.png
 ---
 
 # The `listen` Function
@@ -135,8 +135,8 @@ that can accept connection requests from clients.
 
 ---
 layout: st-left
-image: /images/ST02A_D010.png
-background: /images/BK035D.png
+image: ./images/ST02A_D010.png
+background: ./images/BK035D.png
 ---
 
 # The `accept` Function
@@ -152,7 +152,7 @@ int accept(int sockfd, struct sockaddr *addr, socklen_t *addrlen);
 
 ---
 layout: full-content
-background: /images/BK035D.png
+background: ./images/BK035D.png
 ---
 
 # The `getaddrinfo` Function
@@ -173,8 +173,8 @@ addresses, service names, and port numbers into socket address structures.
 
 ---
 layout: st-left
-image: /images/ST02A_D010.png
-background: /images/BK035D.png
+image: ./images/ST02A_D010.png
+background: ./images/BK035D.png
 ---
 
 # Sockets Helpers
