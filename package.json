@@ -1,0 +1,17 @@
+{
+  "name": "ics-2022-network-programming-ii",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.37.1",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9"
+  }
+}
