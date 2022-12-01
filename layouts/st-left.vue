@@ -1,7 +1,7 @@
 <template>
   <div class="w-full h-full flex items-stretch st-canvas">
     <div>
-      <img :src="image" class="h-full">
+      <img :src="`./images/${image}`" class="h-full">
     </div>
     <div class="flex-1">
       <div class="slidev-layout h-full p-8 pl-0">
@@ -21,8 +21,8 @@ const props = defineProps<{
   background?: string
 }>()
 
-const image = computed(() => props.image ?? './images/ST02A_A010.png')
-const background = computed(() => props.background ? `url("${props.background}")` : 'white')
+const image = computed(() => props.image ?? 'ST02A_A010.png')
+const background = computed(() => props.background ? `url("./images/${props.background}")` : 'white')
 </script>
 
 <style scoped>

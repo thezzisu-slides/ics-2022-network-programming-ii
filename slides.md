@@ -27,7 +27,7 @@ Introduction to Computer Systems, Peking University
 
 ---
 layout: st-left
-background: ./images/BK030D.png
+background: BK030D.png
 ---
 
 # Outline

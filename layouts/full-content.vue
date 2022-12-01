@@ -13,7 +13,7 @@ const props = defineProps<{
   background?: string
 }>()
 
-const background = computed(() => props.background ? `url("${props.background}")` : 'white')
+const background = computed(() => props.background ? `url("./images/${props.background}")` : 'white')
 </script>
 
 <style scoped>

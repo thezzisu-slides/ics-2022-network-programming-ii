@@ -1,7 +1,7 @@
 ---
 layout: st-left-section-header
-image: ./images/ST02A_D030.png
-background: ./images/BK001D.png
+image: ST02A_D030.png
+background: BK001D.png
 ---
 
 # Spec:
@@ -9,7 +9,7 @@ background: ./images/BK001D.png
 
 ---
 layout: st-left
-background: ./images/BK001D.png
+background: BK001D.png
 ---
 
 # Overview: The Modern Web Stack
@@ -31,7 +31,7 @@ The above one-liner is a working HTTP server in Node.JS.
 
 ---
 layout: st-left
-background: ./images/BK001D.png
+background: BK001D.png
 ---
 
 # HTTP/1.1
@@ -60,7 +60,7 @@ thezzisu@AS-ZISU > ~ curl.exe -vvv https://332.zisu.dev/
 
 ---
 layout: st-left
-background: ./images/BK001D.png
+background: BK001D.png
 ---
 
 # HTTP/1.1 Request
@@ -85,7 +85,7 @@ background: ./images/BK001D.png
 
 ---
 layout: st-left
-background: ./images/BK001D.png
+background: BK001D.png
 ---
 
 # HTTP/1.1 Response
@@ -98,8 +98,8 @@ background: ./images/BK001D.png
 <                                        # ---> 3. Empty Line
 <!DOCTYPE html>                          # --
 <html lang="en">                         #  |
-  <head>...</head>                       #  |-> 4. Response Body (Optional)
-  <body><div id="app"></div></body>      #  |
+  <head>...</head>                       #  |-> 4. Response Body
+  <body><div id="app"></div></body>      #  |      (Optional)
 </html>                                  # --
 ```
 
@@ -109,7 +109,7 @@ background: ./images/BK001D.png
 
 ---
 layout: st-left
-background: ./images/BK001D.png
+background: BK001D.png
 ---
 
 # HTTP/1.1
@@ -125,7 +125,7 @@ background: ./images/BK001D.png
 
 ---
 layout: st-left
-background: ./images/BK001D.png
+background: BK001D.png
 ---
 
 # Mime Types
@@ -143,21 +143,25 @@ background: ./images/BK001D.png
 
 ---
 layout: st-left
-background: ./images/BK001D.png
+background: BK001D.png
 ---
 
 # Universal Resource Identifier (URI)
 
 - Format: `scheme:[//authority]path[?query][#fragment]`
-- schema: the protocol to be used, eg `http`, `ftp`, ...
-- authority: the authority to be used, eg `example.com`, `1.1.1.1:80`, `user:pass@host:port`, ...
-- path: the path to the resource, eg `/index.html`, `/api/v1/users`, ...
-- query: the query string, eg `?name=thezzisu&age=18`, ...
-- fragment: the fragment of the resource, eg `#top`, `#section-1`, ...
+- **schema**: the protocol to be used, eg `http`, `ftp`, ...
+- **authority**: the authority to be used, eg `example.com`, `1.1.1.1:80`, `user:pass@host:port`, ...
+- **path**: the path to the resource, eg `/index.html`, `/api/v1/users`, ...
+- **query**: the query string, eg `?name=thezzisu&age=18`, ...
+- **fragment**: the fragment of the resource, eg `#top`, `#section-1`, ...
+
+For example, the URI of this page is:
+
+`https://slides.zisu.dev/ics-2022-network-programming-ii/#/22`.
 
 ---
 layout: st-left
-background: ./images/BK001D.png
+background: BK001D.png
 ---
 
 # Web Specifications
