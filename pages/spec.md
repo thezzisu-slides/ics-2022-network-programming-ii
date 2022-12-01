@@ -31,6 +31,7 @@ The above one-liner is a working HTTP server in Node.JS.
 
 ---
 layout: st-left
+image: ST02A_A020.png
 background: BK001D.png
 ---
 
@@ -60,6 +61,7 @@ thezzisu@AS-ZISU > ~ curl.exe -vvv https://332.zisu.dev/
 
 ---
 layout: st-left
+image: ST02A_A020.png
 background: BK001D.png
 ---
 
@@ -85,6 +87,7 @@ background: BK001D.png
 
 ---
 layout: st-left
+image: ST02A_A030.png
 background: BK001D.png
 ---
 
@@ -109,6 +112,7 @@ background: BK001D.png
 
 ---
 layout: st-left
+image: ST02A_A030.png
 background: BK001D.png
 ---
 
@@ -158,9 +162,10 @@ background: BK001D.png
 For example, the URI of this page is:
 
 `https://slides.zisu.dev/ics-2022-network-programming-ii/#/22`.
-
+ 
 ---
 layout: st-left
+image: ST02A_B030.png
 background: BK001D.png
 ---
 
