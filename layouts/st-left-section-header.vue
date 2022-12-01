@@ -22,7 +22,7 @@ const props = defineProps<{
 }>()
 
 const image = computed(() => props.image ?? 'ST02A_A010.png')
-const background = computed(() => props.background ? `url("./images/${props.background}")` : 'white')
+const background = computed(() => props.background ? `url("${import.meta.env.BASE_URL}images/${props.background}")` : 'white')
 </script>
 
 <style scoped>
