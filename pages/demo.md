@@ -13,6 +13,26 @@ layout: st-left
 background: BK016N.png
 ---
 
+# Tiny Web Server
+
+- Sequential: one request at a time
+- Serves static content from files and dynamic content via CGI
+- Literally *Tiny* with only 239 lines of commented C code
+- For demostation purpose only, not for production use:
+  - You can easily crash it by sending a malformed request
+- Server Spec:
+  1. Sequentially accept connection from client
+  2. Read request line from client
+  3. Parse request line into method, uri, and version
+  4. If URI contains `cgi-bin`, run CGI script
+  5. Otherwise, read file from disk and send it to client
+
+
+---
+layout: st-left
+background: BK016N.png
+---
+
 # Tiny Web Server: Static Content
 
 ```c

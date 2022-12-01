@@ -152,6 +152,22 @@ background: BK001D.png
 
 # Universal Resource Identifier (URI)
 
+- A URI is a string of characters that identifies a resource.
+- There are two common types of URI:
+  - **Uniform Resource Locator (URL):** A URL is a URI that identifies a resource by specifying its location on a computer network and a mechanism for retrieving it.
+    - Example: `https://zisu.dev/`
+  - **Uniform Resource Name (URN):** A URN is a URI that identifies a resource by name independently of its location on a computer network.
+    - Example: `urn:isbn:0-486-27557-4`
+
+---
+layout: st-left
+image: ST02A_A020.png
+background: BK001D.png
+---
+
+# Universal Resource Locator (URL)
+
+- Locators are also identifiers; and URL is a subset of URI
 - Format: `scheme:[//authority]path[?query][#fragment]`
 - **schema**: the protocol to be used, eg `http`, `ftp`, ...
 - **authority**: the authority to be used, eg `example.com`, `1.1.1.1:80`, `user:pass@host:port`, ...
@@ -159,7 +175,7 @@ background: BK001D.png
 - **query**: the query string, eg `?name=thezzisu&age=18`, ...
 - **fragment**: the fragment of the resource, eg `#top`, `#section-1`, ...
 
-For example, the URI of this page is:
+For example, the URL of this page is:
 
 `https://slides.zisu.dev/ics-2022-network-programming-ii/#/22`.
  
