@@ -24,7 +24,7 @@ background: BK001D.png
 But for most of the programmers, they'll never touch the lower layers.
 
 ```js
-require('http').createServer((req, res) => res.send('hello!')).listen(3000)
+require('http').createServer((req, res) => res.end('hello!')).listen(3000)
 ```
 
 The above one-liner is a working HTTP server in Node.JS.
