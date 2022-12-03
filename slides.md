@@ -38,9 +38,9 @@ background: BK030D.png
 - **Demo**: The Tiny Web Server
 - **Gossip**: Web Technologies and More
 
-The beauty of computer systems lies in the **abstracting** between the **user** and the **implementation**.
+The beauty of computer systems lies in the **abstracting** between the ***interface*** and the ***implementation***.
 
-This is especially true for the **network programming**. From the top most Web Application Frameworks to the bottom most network hardwares, they bring us the colorful and complex world of the Internet together, while keeping the complexity hidden from not only end users, but also the developers.
+This is especially true for **network programming**. From the top most Web Application Frameworks to the bottom most network hardwares, they all together bring us a colorful and complex world of *Internet*, while keeping the complexity hidden from not only end users, but also the developers.
 
 ---
 src: ./pages/api.md
