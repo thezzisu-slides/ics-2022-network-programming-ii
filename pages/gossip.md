@@ -66,7 +66,7 @@ layout: st-left
 background: BK099D.png
 ---
 
-# Web Technologies Is Everywhere
+# Web Technologies Are Everywhere
 
 - WeChat: CEF (Chromium Embedded Framework)
 - DingTalk: CEF
@@ -86,7 +86,7 @@ layout: st-left
 background: BK099D.png
 ---
 
-# Web Technologies Is Everywhere
+# Web Technologies Are Everywhere
 
 <div class="flex justify-center">
   <img src="@/images/e2.png" class="h-90">
